@@ -1,0 +1,32 @@
+.header-wrapper {
+  background-color: blueviolet;
+  height: 62px;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  z-index: 1000 !important;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.header-wrapper div {
+  display: inline-flex;
+}
+
+.header-wrapper .header-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+.header-wrapper .header-content a {
+  margin-left: 8px;
+}
+
+.header-link {
+  display: inline-block;
+}
